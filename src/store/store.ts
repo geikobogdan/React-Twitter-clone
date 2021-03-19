@@ -5,6 +5,7 @@ import { createStore, compose, applyMiddleware } from "redux";
 import { rootReducer } from "./rootReducer";
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./saga";
+import { TagsState } from './ducks/tags/contracts/state';
 
 
 declare global {
@@ -22,6 +23,8 @@ const sagaMiddleware = createSagaMiddleware();
 
 export interface RootState {
   tweets: TweetsState;
+  tags: TagsState;
+  tweet :  TweetsState;
 }
 
 export const store = createStore(
