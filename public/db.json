@@ -1,57 +1,16 @@
 {
   "tweets": [
     {
-      "_id": "604fa61187c6c7039b992a4e",
-      "text": "Тестовий твіт. Мене звати Богдан і я дурачок з Луцька. Маю цілих 19 рочкік",
-
+      "id": 1,
+      "_id": "604fa61187c6c7039sdf2a4e",
+      "text": "Test tweet",
       "user": {
-        "fullname": "Імя Фамілія",
-        "username": "юзернейм",
+        "fullname": "MyFullname",
+        "username": "BogdanUser",
         "avatarUrl": "https://instagram.flwo6-1.fna.fbcdn.net/v/t51.2885-19/s150x150/70383014_1291405831065860_5292692304849534976_n.jpg?tp=1&_nc_ht=instagram.flwo6-1.fna.fbcdn.net&_nc_ohc=SnIPAUfggJUAX8nSPrv&ccb=7-4&oh=e5b8a0af73c7f45c0c42e7a1f420d6ce&oe=607C43FF"
       }
-    },
-    {
-      "_id": "604fa6119283fcf6a9f939e6",
-      "text": "Qui mollit nulla voluptate occaecat dolor commodo nisi nulla. Amet non laboris quis adipisicing cillum exercitation mollit magna in exercitation non incididunt minim ad. Cillum non sint anim et consectetur fugiat excepteur ad sint qui. Reprehenderit voluptate ullamco duis proident occaecat nulla quis ad irure reprehenderit anim sit et qui. Quis veniam mollit mollit magna.",
-      "user": {
-        "fullname": "Lilia  Goff ",
-        "username": "lelia",
-        "avatarUrl": "https://source.unsplash.com/random/100x100?1"
-      }
-    },
-    {
-      "_id": "604fa6111897a8acc17d2bca",
-      "text": "Sint eu aliqua qui veniam. Magna consectetur laboris ex culpa elit anim officia do sit. Adipisicing nulla dolor dolor officia commodo ex incididunt Lorem velit et Lorem dolore consectetur eiusmod. Cillum consectetur dolor est irure Lorem mollit aute anim voluptate in tempor ipsum culpa. Sunt sit in est excepteur est.",
-      "user": {
-        "fullname": "Lamb  Robles ",
-        "username": "consuelo",
-        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
-      }
-    },
-    {
-      "_id": "604fa6117b6f357cda1582b1",
-      "text": "Enim nostrud aliquip et sunt deserunt aliquip proident. Anim magna in consequat pariatur dolor. Consequat deserunt veniam dolor aliqua nulla amet amet eu est. Nisi anim ea esse duis id. Nostrud voluptate excepteur quis mollit velit.",
-      "user": {
-        "fullname": "Salinas  Guzman ",
-        "username": "nicholson",
-        "avatarUrl": "https://source.unsplash.com/random/100x100?4"
-      }
-    },
-    {
-      "_id": "604fa6114cfb5e01b827b784",
-      "text": "Irure quis nostrud officia est incididunt velit deserunt eu. Dolore est mollit incididunt amet dolore laborum sunt. Dolore deserunt reprehenderit dolore ut velit laboris labore. Qui adipisicing ad anim reprehenderit velit quis nisi voluptate irure cillum est. Anim proident minim enim ea nulla aliqua officia cillum mollit.",
-      "user": {
-        "fullname": "Blankenship  Farley ",
-        "username": "angelia",
-        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
-      }
     }
-  ],
-  "themes": [
-    {  "_id": "601fa6114cfb5e01b827b784", "name": "#CrimeaIsUkraine", "count": 345 },
-    {  "_id": "602fa6114cfb5e01b827b784", "name": "Зеленський", "count": 67867 },
-    {  "_id": "603fa6114cfb5e01b827b784", "name": "Lutsk", "count": 5674 },
-    {  "_id": "6004fa6114cfb5e01b827b784", "name": "war", "count": 87764 }
+   
   ],
   "users": [
     {
