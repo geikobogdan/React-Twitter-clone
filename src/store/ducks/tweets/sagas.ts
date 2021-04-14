@@ -5,7 +5,7 @@ import {
 import { call, takeEvery, put } from "redux-saga/effects";
 import { TweetsApi } from "../../../services/api/tweetsApi";
 import { addTweet, setAddFormState, setTweets, setTweetsLoadingState } from "./actionCreators";
-import { AddFormState, LoadingState, Tweet } from "./contracts/state";
+import { AddFormState, LoadingState } from "./contracts/state";
 
 export function* fetchTweetsRequest(): any {
   try {
@@ -18,19 +18,11 @@ export function* fetchTweetsRequest(): any {
 }
 
 export function* fetchAddTweetRequest({
-  payload,
+  payload: text
 }: FetchAddTweetActionInterface): any {
   try {
-    const data: Tweet = {
-      _id: Math.random().toString(36).substr(2),
-      text: payload,
-      user: {
-        fullname: "MyFullname",
-        username: "BogdanUser",
-        avatarUrl: "https://source.unsplash.com/random/100x100?5",
-      },
-    };
-    const item = yield call(TweetsApi.addTweet, data);
+    
+    const item = yield call(TweetsApi.addTweet, text);
     yield put(addTweet(item));
     // console.log(items)
   } catch (error) {

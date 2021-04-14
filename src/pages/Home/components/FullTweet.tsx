@@ -1,5 +1,7 @@
 import { CircularProgress, Paper, Typography, Avatar } from "@material-ui/core";
 import React from "react";
+import format from "date-fns/format"
+import ruLang from "date-fns/locale/ru";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import {
@@ -57,7 +59,8 @@ export const FullTweet: React.FC = (): React.ReactElement | null => {
               </span>
               &nbsp;
               <span className={classes.tweetUserName}>·</span>&nbsp;
-              <span className={classes.tweetUserName}>1 ч</span>
+              <span className={classes.tweetUserName}>{format(new Date(tweetData.createdAt),"H:mm ")}</span>
+              <span className={classes.tweetUserName}>{format(new Date(tweetData.createdAt),"dd MMM yyyy г.", {locale: ruLang})}</span>
             </div>
           </Typography>
         </div>
